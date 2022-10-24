@@ -1,15 +1,16 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 body {
-    background-color: rgb(22, 1, 42);       
-    font-weight: 600;                                         
+    background-color: rgb(22, 1, 42);   
+    color: white;    
+    font-family: 'Anton', sans-serif;                                      
 }
 
 a {
     position: relative;
     display: inline-block;
     padding: 15px;
-    /* color: rgb(255, 255, 255); */
     text-shadow: 3px 1px 0px rgba(251, 251, 251, 0.3);
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -19,11 +20,9 @@ a {
 }
 
 a:hover {
-    color: rgb(255, 254, 254);
     background: #7fc6ff;
-    /* box-shadow */
-    box-shadow: 0px 0px 40px -16px rgba(242, 242, 242, 0.6), 7px 0px 39px 29px rgba(58, 226, 255, 0.26), 0px 0px 20px 0px #49bac4;
-    text-shadow: 2px 2px 0px rgba(0,0,0,0.3);
+    box-shadow: 0px 0px 40px -16px rgba(242, 242, 242, 0.6), 7px 0px 39px 29px rgba(58, 226, 255, 0.26), 0px 0px 20px 0px #49bac4,2px 0px 23px -6px rgba(248, 248, 248, 0.6) inset;
+    text-shadow: 2px 2px 0px rgba(255, 255, 255, 0.3);
     transition-delay: 1s;
     border-radius: 5px;
 }
