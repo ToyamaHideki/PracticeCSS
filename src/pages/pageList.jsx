@@ -17,11 +17,18 @@ const LinkList = styled.section`
   height: 100%;
 `;
 
+const SectionTitle = styled.h2`
+  font-size: 1.3rem;
+`;
+
 const Home = () => {
   return (
     <LinkList>
-      <LinkTitle to="/neonbtn">NEON BUTTON PAGE</LinkTitle>
-      <LinkTitle to="/styled_components">STYLED_COMPONENTS</LinkTitle>
+      <SectionTitle>BUTTON</SectionTitle>
+      <LinkTitle to="/neonbtn">ネオンボタン</LinkTitle>
+      <LinkTitle to="/japansebtn">和柄風ボタン</LinkTitle>
+      <LinkTitle to="/colorbtn">カラフルボタン(aタグで作成)</LinkTitle>
+
     </LinkList>
   );
 };

@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
-import TrunsitionBtn from "../../components/TransitionButton/TrunsitionBtn";
+import TrunsitionBtn from "../../../components/TransitionButton/TrunsitionBtn";
 
 
 const Section = styled.section`
